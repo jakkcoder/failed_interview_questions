@@ -1,0 +1,156 @@
+---
+
+# 📘 Interview Summary (Q → A → Gap)
+
+---
+
+## 🔴 1. MobileNet / CNN Architecture
+
+**❓ Question**
+Can you explain MobileNet architecture?
+
+**🗣️ Your Answer**
+“I may not be remembering… long back…”
+
+**⚠️ Gap**
+
+* Could not explain a model you claimed experience in
+* Missing:
+
+  * Depthwise separable convolutions
+  * Parameter reduction
+  * Mobile optimization
+
+---
+
+## 🔴 2. Vector Search (Vertex AI)
+
+**❓ Question**
+What exactly happens in vector search?
+
+**🗣️ Your Answer**
+
+* Embedding is generated
+* Semantic search is performed
+* Mentioned dot product, not cosine similarity
+
+**⚠️ Gap**
+
+* Explanation was surface-level
+* Incorrect/misleading understanding of similarity metrics
+* Missing:
+
+  * ANN (Approximate Nearest Neighbor)
+  * Index types (HNSW, IVF)
+  * Trade-offs in search
+
+---
+
+## 🔴 3. Retrieval vs Reranker
+
+**❓ Question**
+What is the difference between retrieval and reranker?
+
+**🗣️ Your Answer**
+“I don’t know”
+
+**⚠️ Gap**
+
+* Critical missing concept for RAG systems
+* Missing:
+
+  * Retrieval → fast, recall-focused
+  * Reranker → precise, ranking-focused
+
+---
+
+## 🔴 4. Build Your Own Embedding Model
+
+**❓ Question**
+How would you build an embedding model?
+
+**🗣️ Your Answer**
+
+* One-hot encoding
+* Dimensionality reduction
+
+**⚠️ Gap**
+
+* Outdated and incorrect approach
+* Missing:
+
+  * Word2Vec / GloVe
+  * Transformer-based embeddings (BERT)
+  * Contextual learning
+
+---
+
+## 🔴 5. Byte Pair Encoding (BPE)
+
+**❓ Question**
+What is Byte Pair Encoding?
+
+**🗣️ Your Answer**
+“I don’t know”
+
+**⚠️ Gap**
+
+* Missing core NLP/tokenization concept
+* Important for LLM pipelines
+
+---
+
+## 🟡 6. RAG System Explanation
+
+**❓ Question**
+Explain your RAG / agentic system
+
+**🗣️ Your Answer**
+
+* Explained pipeline
+* Mentioned Slack integration
+* SQL generation
+* Retriever + ingestion
+
+**⚠️ Gap**
+
+* Not structured
+* Missing:
+
+  * Clear architecture flow
+  * Metrics (latency, accuracy, evaluation)
+  * System design clarity
+
+---
+
+## 🟡 7. Embedding Model Usage
+
+**❓ Question**
+What embedding model are you using?
+
+**🗣️ Your Answer**
+
+* OpenAI embedding model
+* Vector size ~3000
+
+**⚠️ Gap**
+
+* Missing reasoning:
+
+  * Why this model?
+  * Trade-offs
+  * Cost vs latency vs accuracy
+
+---
+
+# 🎯 Final Takeaway
+
+* **Main issue:**
+  You have strong experience, but answers lacked **depth + structure**
+
+* **Critical misses:**
+
+  * Retrieval vs reranker
+  * Embedding fundamentals
+  * Tokenization (BPE)
+  * Model explanations (MobileNet)
