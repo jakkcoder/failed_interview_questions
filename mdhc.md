@@ -1,7 +1,7 @@
 ## 🧠 Core ML / RAG Depth
 
 * Difference between **reranker vs cross-encoder**
-* Exact **embedding vector size** (you were unsure / inconsistent)
+* Exact **embedding vector size** 
 * Why choose **large embedding model vs small (cost vs performance)**
 
 ---
@@ -36,18 +36,12 @@
 
 ---
 
-# ⚠️ Partially answered / average answers
 
 ## 🏗️ System Design
 
 * Design a **serverless chatbot**
 * How to **maintain memory per user**
 * How to **identify users & manage concurrency**
-
-👉 You answered, but:
-
-* Too generic
-* Not deep (no tradeoffs, no scaling discussion)
 
 ---
 
@@ -68,14 +62,12 @@
 * AWS vs GCP usage
 * Serverless architecture mapping (Lambda vs Cloud Run)
 
-👉 Practical but not deeply structured
 
 ---
 
 ## 🔊 Voice / AI Systems
 
 * Experience with **voice agents / TTS**
-  👉 Answer was shallow
 
 ---
 
@@ -103,7 +95,6 @@
 * Vector DB design (single vs multiple)
 * Open-source vs managed DB
 
-👉 Good practical answers
 
 ---
 
